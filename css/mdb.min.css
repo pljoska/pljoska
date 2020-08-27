@@ -1633,7 +1633,7 @@ ul.stepper li.warning a .circle {
 }
 
 .stylish-color-dark {
-    background-color: #3e4551 !important
+    background-color: #543728 !important
 }
 
 .unique-color {
@@ -13788,12 +13788,12 @@ span[data-jarallax-element] {
 }
 
 .travel-lp .navbar {
-    background-color: #3E4551
+    background-color: #543728
 }
 
 @media (max-width:768px) {
     .travel-lp .navbar:not(.top-nav-collapse) {
-        background: #3E4551
+        background: #543728
     }
 }
 
@@ -14375,5 +14375,3 @@ footer.page-footer h2 {
 .orange-text-2 {
     color: #ffa726 !important
 }
-
-[][[[]]]
