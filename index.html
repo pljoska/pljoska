@@ -9,9 +9,9 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
   <style>
     html,
         body,
@@ -556,7 +556,7 @@
           <div class="row">
 
             <!-- Grid column -->
-            <div class="col-lg-8">
+            <div class="col-lg-12">
 
               <div class="card-body form">
 
@@ -617,7 +617,7 @@
                   <!-- Grid column -->
                   <div class="col-md-12">
                     <div class="md-form mb-0">
-                      <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="8"></textarea>
+                      <textarea type="text" id="form-contact-message" class="form-control md-textarea" rows="5"></textarea>
                       <label for="form-contact-message">Your message</label>
                       <a class="btn-floating btn-lg brown">
                         <i class="far fa-paper-plane"></i>
@@ -635,7 +635,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-lg-4">
+            <div class="col-lg-12">
 
               <div class="card-body text-center h-100 dark-grey-text">
 
@@ -648,36 +648,35 @@
                     <p><i class="fas fa-envelope pr-3"></i><a href="crown.leather@tutanota.com">Send us direct email</a></p>
                   </li>
                 </ul>-->
-                <hr class="hr-light my-5">
                 <ul class="list-inline text-center list-unstyled">
                   <li class="list-inline-item fa-lg">
                     <p></p>
                       <p><i class="fas fa-phone pr-3"></i>+ 381 60 555 333</p>
                     </li>
-                  <li class="list-inline-item">
+                  <li class="list-unstyled">
                     <p></p>
-                      <p><i class="fas fa-envelope pr-3 fa-lg "></i><a href="mailto:crown.leather@tutanota.com?subject=Feedback&body=Get-in-touch" class="brown-text">crown.leather@tutanota.com</a></p>
+                      <p><i class="fas fa-envelope pr-3 fa-lg"></i><a href="mailto:crown.leather@tutanota.com?subject=Feedback&body=Get-in-touch" class="fa-lg brown-text">crown.leather@tutanota.com</a></p>
                     </li>
                 </ul>
                 <hr class="hr-light my-5">
                 <ul class="list-inline text-center list-unstyled">
                   <li class="list-inline-item">
-                    <a class="p2 fa-lg tw-ic" href="https://about.twitter.com/" target="_blank">
+                    <a class="btn-floating btn-sm brown" href="https://about.twitter.com/" target="_blank">
                       <i class="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="p2 fa-lg li-ic" href="https://www.facebook.com/groups/" target="_blank">
+                    <a class="btn-floating btn-sm brown" href="https://www.facebook.com/groups/" target="_blank">
                       <i class="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="p2 fa-lg ins-ic" href="https://business.instagram.com/" target="_blank">
+                    <a class="btn-floating btn-sm brown" href="https://business.instagram.com/" target="_blank">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a class="p2 fa-lg li-ic" href="https://business.linkedin.com/marketing-solutions/linkedin-pages" target="_blank">
+                    <a class="btn-floating btn-sm brown" href="https://business.linkedin.com/marketing-solutions/linkedin-pages" target="_blank">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </li>
@@ -728,16 +727,16 @@
   <!-- SCRIPTS -->
 
   <!-- JQuery -->
-  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
 
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="../js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
   <script>
     $(function () {
       var selectedClass = "";
@@ -775,215 +774,6 @@
 
   </script>
 
-  <script>
-    // Data Picker Initialization
-    $('.datepicker').pickadate();
-
-  </script>
-  <script>
-    var countries = [
-      "Afghanistan",
-      "Albania",
-      "Algeria",
-      "Andorra",
-      "Angola",
-      "Antigua and Barbuda",
-      "Argentina",
-      "Armenia",
-      "Australia",
-      "Austria",
-      "Azerbaijan",
-      "Bahamas",
-      "Bahrain",
-      "Bangladesh",
-      "Barbados",
-      "Belarus",
-      "Belgium",
-      "Belize",
-      "Benin",
-      "Bhutan",
-      "Bolivia",
-      "Bosnia and Herzegovina",
-      "Botswana",
-      "Brazil",
-      "Brunei",
-      "Bulgaria",
-      "Burkina Faso",
-      "Burundi",
-      "Cabo Verde",
-      "Cambodia",
-      "Cameroon",
-      "Canada",
-      "Central African Republic (CAR)",
-      "Chad",
-      "Chile",
-      "China",
-      "Colombia",
-      "Comoros",
-      "Costa Rica",
-      "Cote d'Ivoire",
-      "Croatia",
-      "Cuba",
-      "Cyprus",
-      "Czech Republic",
-      "Denmark",
-      "Djibouti",
-      "Dominica",
-      "Dominican Republic",
-      "Ecuador",
-      "Egypt",
-      "El Salvador",
-      "Equatorial Guinea",
-      "Eritrea",
-      "Estonia",
-      "Ethiopia",
-      "Fiji",
-      "Finland",
-      "France",
-      "Gabon",
-      "Gambia",
-      "Georgia",
-      "Germany",
-      "Ghana",
-      "Greece",
-      "Grenada",
-      "Guatemala",
-      "Guinea",
-      "Guinea-Bissau",
-      "Guyana",
-      "Haiti",
-      "Honduras",
-      "Hungary",
-      "Iceland",
-      "India",
-      "Indonesia",
-      "Iran",
-      "Iraq",
-      "Ireland",
-      "Israel",
-      "Italy",
-      "Jamaica",
-      "Japan",
-      "Jordan",
-      "Kazakhstan",
-      "Kenya",
-      "Kiribati",
-      "Kosovo",
-      "Kuwait",
-      "Kyrgyzstan",
-      "Laos",
-      "Latvia",
-      "Lebanon",
-      "Lesotho",
-      "Liberia",
-      "Libya",
-      "Liechtenstein",
-      "Lithuania",
-      "Luxembourg",
-      "Macedonia (FYROM)",
-      "Madagascar",
-      "Malawi",
-      "Malaysia",
-      "Maldives",
-      "Mali",
-      "Malta",
-      "Marshall Islands",
-      "Mauritania",
-      "Mauritius",
-      "Mexico",
-      "Micronesia",
-      "Moldova",
-      "Monaco",
-      "Mongolia",
-      "Montenegro",
-      "Morocco",
-      "Mozambique",
-      "Myanmar (Burma)",
-      "Namibia",
-      "Nauru",
-      "Nepal",
-      "Netherlands",
-      "New Zealand",
-      "Nicaragua",
-      "Niger",
-      "Nigeria",
-      "North Korea",
-      "Norway",
-      "Oman",
-      "Pakistan",
-      "Palau",
-      "Palestine",
-      "Panama",
-      "Papua New Guinea",
-      "Paraguay",
-      "Peru",
-      "Philippines",
-      "Poland",
-      "Portugal",
-      "Qatar",
-      "Romania",
-      "Russia",
-      "Rwanda",
-      "Saint Kitts and Nevis",
-      "Saint Lucia",
-      "Saint Vincent and the Grenadines",
-      "Samoa",
-      "San Marino",
-      "Sao Tome and Principe",
-      "Saudi Arabia",
-      "Senegal",
-      "Serbia",
-      "Seychelles",
-      "Sierra Leone",
-      "Singapore",
-      "Slovakia",
-      "Slovenia",
-      "Solomon Islands",
-      "Somalia",
-      "South Africa",
-      "South Korea",
-      "South Sudan",
-      "Spain",
-      "Sri Lanka",
-      "Sudan",
-      "Suriname",
-      "Swaziland",
-      "Sweden",
-      "Switzerland",
-      "Syria",
-      "Taiwan",
-      "Tajikistan",
-      "Tanzania",
-      "Thailand",
-      "Timor-Leste",
-      "Togo",
-      "Tonga",
-      "Trinidad and Tobago",
-      "Tunisia",
-      "Turkey",
-      "Turkmenistan",
-      "Tuvalu",
-      "Uganda",
-      "Ukraine",
-      "United Arab Emirates (UAE)",
-      "United Kingdom (UK)",
-      "United States of America (USA)",
-      "Uruguay",
-      "Uzbekistan",
-      "Vanuatu",
-      "Vatican City (Holy See)",
-      "Venezuela",
-      "Vietnam",
-      "Yemen",
-      "Zambia",
-      "Zimbabwe"
-    ];
-
-    $('#form-autocomplete-1').mdb_autocomplete({
-      data: countries
-    });
-
-  </script>
 </body>
 
 </html>
