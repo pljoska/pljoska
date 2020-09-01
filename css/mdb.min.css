@@ -14161,12 +14161,12 @@ span[data-jarallax-element] {
     transform: scale(1)
 }
 
-@media (max-width:450px) {
+@media (max-width:768px) {
     .gallery {
         -moz-column-count: 1;
         column-count: 1;
-        -moz-column-width: 100%;
-        column-width: 100%
+        -moz-column-width: 99%;
+        column-width: 99%
     }
 
     .display-1 {
