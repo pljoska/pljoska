@@ -405,7 +405,7 @@
     </div>
 
     <!--Streak-->
-    <div class="streak streak-photo streak-long-2 mt-5 lazy" style="background-image: url('https://i.imgur.com/YMdvYjo.jpeg');">
+    <div class="streak streak-photo streak-long-2 mt-5 lazyload" loading="lazy" style="background-image: url('https://i.imgur.com/YMdvYjo.jpeg');">
       <div class="flex-center rgba-black-strong">
         <div class="container h-100 d-flex justify-content-center align-items-center">
 
@@ -742,6 +742,8 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
+
   <script>
     $(function () {
       var selectedClass = "";
@@ -776,6 +778,24 @@
     $(function () {
       $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
     });
+
+  </script>
+
+  <script>
+  if ('loading' in HTMLIFrameElement.prototype) {
+    const iframes = document.querySelectorAll('iframe[loading="lazy"]');
+
+    iframes.forEach(iframe => {
+      iframe.src = iframe.dataset.src;
+    });
+
+  } else {
+    // Dynamically import the LazySizes library
+    const script = document.createElement('script');
+    script.src =
+      'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js';
+    document.body.appendChild(script);
+  }
 
   </script>
 
