@@ -405,7 +405,7 @@
     </div>
 
     <!--Streak-->
-    <div class="streak streak-photo streak-long-2 mt-5" style="background-image: url('https://i.imgur.com/YMdvYjo.jpeg');">
+    <div class="streak streak-photo streak-long-2 mt-5" loading="lazy" style="background-image: url('https://i.imgur.com/YMdvYjo.jpeg');">
       <div class="flex-center rgba-black-strong">
         <div class="container h-100 d-flex justify-content-center align-items-center">
 
@@ -523,7 +523,7 @@
           <div class="mb-3 pics animation all 1">
             <!--Image-->
             <div class="view overlay animation all 1">
-              <img class="img-fluid" src="https://i.imgur.com/3xOUtGu.jpeg" alt="Card image cap">
+              <img class="img-fluid" loading="lazy" src="https://i.imgur.com/3xOUtGu.jpeg" alt="Card image cap">
                 <div class="mask flex-center rgba-brown-strong animation all 1">
                   <h4 class="white-text font-weight-normal">Currently out of stock!</h4>
                 </div>
@@ -741,6 +741,10 @@
 
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  <!-- lazysizes -->
+  <script src="https://raw.githubusercontent.com/aFarkas/lazysizes/gh-pages/lazysizes.min.js" async></script>
+
   <script>
     $(function () {
       var selectedClass = "";
